@@ -8,6 +8,8 @@ For a .NET project utilizing SignalR, some of the SignalR endpoints/methods were
 When I tried to use SignalRReturn and SignalRParam, I got [error CS0592](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/cs0592?f1url=%3FappId%3Droslyn%26k%3Dk(CS0592)), but I had a hard time understanding what I had done wrong when applying the attributes.
 
 ## Solution
-After some trial and error and a lot of pointless googling, I found the right use. **See the code snippet**.
+**See the code snippet**.
+
+After some trial and error and a lot of pointless googling, I found the right use.
 
 I hope this saves someone some time and helps to understand attributes better!
