@@ -10,6 +10,4 @@ When I tried to use SignalRReturn and SignalRParam, I got [error CS0592](https:/
 ## Solution
 **See the code snippet**.
 
-After some trial and error and a lot of pointless googling, I found the right use.
-
 I hope this saves someone some time and helps to understand attributes better!
