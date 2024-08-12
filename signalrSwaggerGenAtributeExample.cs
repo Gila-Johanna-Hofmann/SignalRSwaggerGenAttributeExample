@@ -1,6 +1,6 @@
 // your method in a SignalR Hub
-[SignalRMethod(description: "Call this method to receive updates.")]
-[return: SignalRReturn(typeof(Object), 200, "The object sent to the subscribed caller.")]
+[SignalRMethod(description: "Your method description.")]
+[return: SignalRReturn(typeof(Object), 200, "I used this decsription to point out that in this case, SignalRreturn documents the object the caller will receive, not the return type of the actual method.")]
 public async Task SubscribeAsync([SignalRParam("The PonyId", typeof(Guid), false, false)] Guid id)
 {
     // stuff you want to do first
