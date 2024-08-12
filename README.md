@@ -5,7 +5,7 @@ Small example of using the SignalRSwaggerGen attributes for methods. Since I hav
 For a .NET project utilizing SignalR, some of the SignalR endpoints/methods were integrated into the Swagger documentation of the API, using the [SignalRSwaggerGen library](https://github.com/essencebit/SignalRSwaggerGen/wiki) by @essencebit and the attributes it provides.
 
 ## My problem
-When I tried to use SignalRRReturn and SignalRParam, I got [error CS0592](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/cs0592?f1url=%3FappId%3Droslyn%26k%3Dk(CS0592)), but I had a hard time understanding what I had done wrong when applying the attributes.
+When I tried to use SignalRReturn and SignalRParam, I got [error CS0592](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/cs0592?f1url=%3FappId%3Droslyn%26k%3Dk(CS0592)), but I had a hard time understanding what I had done wrong when applying the attributes.
 
 ## Solution
 After some trial and error and a lot of pointless googling, I found the right use. See the code snippet.
